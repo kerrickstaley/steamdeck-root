@@ -1,0 +1,3 @@
+rootgit() {
+  git --git-dir=/root/src/steamdeck-root/.git/ --work-tree=/ "$@"
+}
